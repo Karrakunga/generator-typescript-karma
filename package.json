@@ -1,7 +1,7 @@
 {
   "name": "generator-typescript-karma",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Generator for karma test runner using typescript",
   "author": "Scott Lyons",
   "files": [
     "app"
