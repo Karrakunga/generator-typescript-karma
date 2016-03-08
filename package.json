@@ -1,0 +1,13 @@
+{
+  "name": "generator-typescript-karma",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Scott Lyons",
+  "files": [
+    "app"
+  ],
+  "keywords": ["yeoman-generator", "typescript", "karma", "jasmine", "systemjs"],
+  "dependencies": {
+    "yeoman-generator": "^0.20.2"
+  }
+}

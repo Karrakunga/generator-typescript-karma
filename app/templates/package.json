@@ -1,0 +1,48 @@
+{
+  "name": "typescript-karma",
+  "version": "1.0.0",
+  "scripts1": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" \"gulp compress\" ",
+    "startmini": "concurrent \"gulp tsc\"  \"gulp develop\" \"npm run lite\" ",
+    "develop": "concurrent \"npm run tsc:w\" \"npm run lite\" "
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "systemjs": "0.19.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "concurrently": "^1.0.0",
+    "es6-module-loader": "^0.17.11",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-sass": "2.1.1",
+    "gulp-shell": "0.5.1",
+    "gulp-typescript": "^2.10.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-webserver": "^0.9.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-systemjs": "^0.12.0",
+    "lite-server": "^1.3.1",
+    "node-minify": "^1.3.7",
+    "phantomjs-polyfill": "0.0.2",
+    "phantomjs-prebuilt": "^2.1.4",
+    "run-sequence": "^1.1.5",
+    "systemjs": "^0.19.23",
+    "traceur": "0.0.104",
+    "typescript": "^1.7.3"
+  }
+}
