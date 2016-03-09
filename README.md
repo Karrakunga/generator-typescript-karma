@@ -2,6 +2,15 @@
 
 Creates a basic project using the karma runner to test code written in typescript using systemjs
 
+## Yeoman Generator
+To install the generator run:
+
+`$ npm install -g generator-typescript-karma`
+
+Then to use the generator run:
+
+`$ yo typescript-karma`
+
 ## Running tests
 
 At the command prompt type:  
