@@ -1,6 +1,2 @@
 /node_modules/
-app/**/*.js
-app/**/*.js.map
-/css/
-build/**/*.js
 /.idea/
