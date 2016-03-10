@@ -4,7 +4,6 @@ var ts = require('gulp-typescript');
 var webserver = require('gulp-webserver');
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var shell = require('gulp-shell');
 var jasmine = require('gulp-jasmine-phantom');
 var KarmaServer = require('karma').Server;
 
@@ -33,9 +32,6 @@ gulp.task('tsc', function () {
     return tsResult.js.pipe(gulp.dest('app/js'));
 });
 
-gulp.task('lite', shell.task([
-    'lite-server'
-]));
 gulp.task('tscw', function () {
     gulp.watch('app/**/*.ts', gulp.series('tsc'));
 });
